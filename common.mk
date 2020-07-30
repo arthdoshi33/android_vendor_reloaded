@@ -222,6 +222,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     StitchImage
 
+#OPScreenRecord
+PRODUCT_PACKAGES += \
+    OPScreenRecord
+
 # Versioning
 include vendor/reloaded/config/version.mk
 
