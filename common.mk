@@ -139,8 +139,7 @@ PRODUCT_PACKAGES += \
 
 # Snapdragon packages
 PRODUCT_PACKAGES += \
-    MusicFX \
-    SnapdragonGallery
+    MusicFX
 
 # OTA
 PRODUCT_PACKAGES += \
@@ -219,9 +218,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     WallpaperPickerPrebuilt
 
-# Screen recorder
+#StitchImage Asus Long screenshot
 PRODUCT_PACKAGES += \
-    Recorder
+    StitchImage
 
 # Versioning
 include vendor/reloaded/config/version.mk
