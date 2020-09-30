@@ -246,4 +246,7 @@ else
 include vendor/reloaded/sdclang/sdclang.mk
 endif
 
+# Include sepolicy
+include vendor/reloaded/sepolicy/common/sepolicy.mk
+
 $(call inherit-product-if-exists, vendor/extra/product.mk)
