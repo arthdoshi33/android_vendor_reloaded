@@ -214,11 +214,7 @@ PRODUCT_PACKAGES += \
 # Pixel Launcher
 PRODUCT_PACKAGES += \
     NexusLauncherPrebuilt \
-
-# Retro Music Player
-PRODUCT_PACKAGES += \
-    RetroMusicPlayer
-
+    
 # WallpaperPicker
 PRODUCT_PACKAGES += \
     WallpaperPickerPrebuilt
@@ -226,10 +222,6 @@ PRODUCT_PACKAGES += \
 # Screen recorder
 PRODUCT_PACKAGES += \
     Recorder
-
-# Long Screenshot
-PRODUCT_PACKAGES += \
-    Longshot
 
 # Versioning
 include vendor/reloaded/config/version.mk
@@ -245,8 +237,5 @@ else
 # include definitions for SDCLANG
 include vendor/reloaded/sdclang/sdclang.mk
 endif
-
-# Include sepolicy
-include vendor/reloaded/sepolicy/common/sepolicy.mk
 
 $(call inherit-product-if-exists, vendor/extra/product.mk)

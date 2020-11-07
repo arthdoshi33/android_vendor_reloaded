@@ -13,17 +13,6 @@ LOCAL_DEX_PREOPT    := false
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE        := Longshot
-LOCAL_SRC_FILES     := app/Longshot.apk
-LOCAL_MODULE_TAGS   := optional
-LOCAL_MODULE_CLASS  := APPS
-LOCAL_CERTIFICATE   := platform
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_MULTILIB := both
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := NexusLauncherPrebuilt
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := priv-app/NexusLauncherPrebuilt.apk
@@ -34,16 +23,6 @@ LOCAL_PRODUCT_MODULE := true
 LOCAL_OVERRIDES_PACKAGES := Launcher2 Launcher3 Launcher3QuickStep
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_DEX_PREOPT := false
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE        := RetroMusicPlayer
-LOCAL_SRC_FILES     := priv-app/RetroMusicPlayer.apk
-LOCAL_MODULE_TAGS   := optional
-LOCAL_MODULE_CLASS  := APPS
-LOCAL_CERTIFICATE   := PRESIGNED
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_MULTILIB := both
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
